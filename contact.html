@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Rubik+Bubbles&display=swap" rel="stylesheet"> <!-- Link for google font -->
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="index.html" class="logo">Christina Hantakas</a>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <main>
+        <section id="contact" class="section">
+            <h1>Contact Me</h1>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:hantakasc@gmail.com">hantakasc@gmail.com</a></p>
+            </div>
+            <form id="contact-form" class="contact-form" action="mailto:hantakasc@gmail.com" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder= "Enter name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder = "Enter email" required>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            <a href="https://www.linkedin.com/in/christinahantakas/" target="_blank">LinkedIn</a> | 
+            <a href="https://github.com/hantakasc" target="_blank">GitHub</a>
+        </p>
+    </footer>
+</body>
+</html>
