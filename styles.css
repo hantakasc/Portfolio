@@ -76,3 +76,42 @@ header .logo {
 header {
   padding: 20px;
 }
+
+/* Styling for contact form inputs and button */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; 
+  max-width: 600px; 
+  margin: 0 auto; 
+}
+
+.contact-form label {
+  font-family: "Rubik Bubbles", sans-serif; 
+  font-size: 16px;
+  color:#FF7B9C; 
+}
+
+.contact-form input {
+  font-family: "Rubik Bubbles", sans-serif; 
+  font-size: 16px; 
+  border: 2px solid #FF7B9C; 
+  border-radius: 8px; 
+  padding: 10px; 
+  outline: none; 
+}
+
+.contact-form button {
+  background-color: #FF7B9C; 
+  color: white; 
+  font-family: "Rubik Bubbles", sans-serif; 
+  font-size: 16px;
+  border: none; 
+  border-radius: 8px; 
+  padding: 10px 20px; 
+  cursor: pointer;  
+}
+
+.contact-form button:hover {
+  background-color: #FF9BAE; 
+}
