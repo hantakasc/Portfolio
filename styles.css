@@ -39,3 +39,9 @@ p {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: #1c2f2f;
 }
+
+a {
+  font-family: "Rubik Bubbles", sans-serif;
+  color: #FF7B9C;
+  text-decoration: none; 
+}
