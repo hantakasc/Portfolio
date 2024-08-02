@@ -143,3 +143,24 @@ header {
   border: 5px solid #FF7B9C; 
 }
 
+/*Styling for Resume Page*/
+.resume-link {
+  font-size: 100px;
+}
+/*.resume-button-h1 {
+  display: inline-block;
+  background-color: #FF7B9C; 
+  color: white; 
+  font-family: "Rubik Bubbles", sans-serif; 
+  font-size: 16px;
+  border: none; 
+  border-radius: 8px; 
+  padding: 10px 20px; 
+  cursor: pointer;  
+  text-decoration: none; 
+  text-align: center;
+}
+
+.resume-button-h1:hover {
+  background-color: #FF9BAE; 
+} */
