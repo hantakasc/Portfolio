@@ -12,7 +12,7 @@
     height: 400px; 
     border-radius: 50%; 
     object-fit: cover;
-    border: 5px solid #FF7B9C;;
+    border: 5px solid #FF7B9C;
   }
 
   * {
@@ -115,3 +115,31 @@ header {
 .contact-form button:hover {
   background-color: #FF9BAE; 
 }
+
+/*Styling for About Page */
+
+.about-section {
+  background: inherit; 
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+  color: #2f1c28; 
+}
+
+.photo-gallery {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center; 
+  flex-wrap: wrap;
+  margin-bottom: 20px; 
+}
+
+.about-photo {
+  width: 325px;
+  height: 325px; 
+  border-radius: 50%;
+  object-fit: cover; 
+  border: 5px solid #FF7B9C; 
+}
+
