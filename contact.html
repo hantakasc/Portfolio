@@ -15,11 +15,11 @@
     <!-- Header -->
     <header>
         <nav>
-            <a href="index.html" class="logo">Christina Hantakas</a>
+            <a href="index.html" class="logo" aria-label="Homepage">Christina Hantakas</a>
             <ul>
-                <li><a href="about.html">About</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html" aria-label="About">About</a></li>
+                <li><a href="resume.html" aria-label="Resume">Resume</a></li>
+                <li><a href="contact.html" aria-label="Contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -29,16 +29,16 @@
         <section id="contact" class="section">
             <h1>Contact Me</h1>
             <div class="contact-info">
-                <p>Email: <a href="mailto:hantakasc@gmail.com">hantakasc@gmail.com</a></p>
+                <p>Email: <a href="mailto:hantakasc@gmail.com" aria-label="Email Christina Hantakas">hantakasc@gmail.com</a></p>
             </div>
             <form id="contact-form" class="contact-form" action="mailto:hantakasc@gmail.com" method="post">
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name" placeholder= "Enter name" required>
+                <input type="text" id="name" name="name" placeholder= "Enter name" required aria-required="true">
                 
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder = "Enter email" required>
+                <input type="email" id="email" name="email" placeholder = "Enter email" required aria-required="true">
                 
-                <button type="submit">Submit</button>
+                <button type="submit" aria-label="Submit Contact Form">Submit</button>
             </form>
         </section>
     </main>
@@ -46,10 +46,11 @@
     <!-- Footer -->
     <footer>
         <p>
-            <a href="https://www.linkedin.com/in/christinahantakas/" target="_blank">LinkedIn</a> | 
-            <a href="https://github.com/hantakasc" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/christinahantakas/" target="_blank" aria-label="Christina Hantakas LinkedIn">LinkedIn</a> | 
+            <a href="https://github.com/hantakasc" target="_blank" aria-label="Christina Hantakas GitHub">GitHub</a>
         </p>
     </footer>
     </div>
+    <script src="scripts.js"></script>
 </body>
 </html>
