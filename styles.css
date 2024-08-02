@@ -164,3 +164,51 @@ header {
 .resume-button-h1:hover {
   background-color: #FF9BAE; 
 } */
+
+/* Media query for small devices */
+@media (max-width: 390px) {
+  .rubik-bubbles-regular, h1 {
+      font-size: 40px; 
+  }
+
+  .profile-image {
+      width: 300px; 
+      height: 300px;
+  }
+
+  .grid-container {
+      padding: 10px;
+  }
+
+  .about-section {
+      padding: 10px;
+  }
+
+  .resume-link {
+      font-size: 80px; 
+  }
+}
+
+/* Media query for slightly larger small devices */
+@media (max-width: 430px) {
+  .rubik-bubbles-regular, h1 {
+      font-size: 45px; 
+  }
+
+  .profile-image {
+      width: 350px; 
+      height: 350px;
+  }
+
+  .grid-container {
+      padding: 15px;
+  }
+
+  .about-section {
+      padding: 15px;
+  }
+
+  .resume-link {
+      font-size: 90px; 
+  }
+}
